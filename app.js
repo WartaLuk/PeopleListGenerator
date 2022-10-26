@@ -23,7 +23,9 @@ if (person.gender === 'femae') person.name = randChoice(femaleNames);
 else person.name = randChoice(maleNames);
 person.lastname = randChoice(lastnames);
 person.age = Math.floor(Math.random() * 100);
-
+person.email = person.name.toLowerCase() + "." + person.lastname.toLowerCase() + "@gmail.com";
+//??toLowerCase??
+person.phoneNumber = Math.floor(Math.random() * (10 ** 8 * 8) + 10 ** 8);
 people.push(person)
 }
 
