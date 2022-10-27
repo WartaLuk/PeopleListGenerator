@@ -28,7 +28,7 @@ for (let i = 0; i < 20; i++) {
     "." +
     person.lastname.toLowerCase() +
     "@gmail.com";
-  //??toLowerCase??
+  //??toLowerCase
   person.phoneNumber = Math.floor(Math.random() * (10 ** 8 * 8) + 10 ** 8);
   people.push(person);
 }
